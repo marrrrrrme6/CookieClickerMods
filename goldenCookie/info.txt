@@ -1,0 +1,13 @@
+{
+ "Name": "Auto-Click Golden Cookies",
+ "ID": "goldenCookieClicker",
+ "Author": "MyRougeYoshi",
+ "Description": "Auto-clicks golden and wrath cookies.",
+ "ModVersion": 1,
+ "GameVersion": 2.048,
+ "Date": "21/02/2023",
+ "Dependencies": [],
+ "Disabled": 1,
+ "AllowSteamAchievs": 1,
+ "Workshop": "2936715219"
+}

@@ -1,0 +1,11 @@
+{
+ "Name": "Reload Game Button",
+ "ID": "ReloadGameButton",
+ "Author": "SlyCooperFan1",
+ "Description": "Adds two buttons in Options to quickly reload the game.",
+ "ModVersion": 1.4,
+ "GameVersion": 2.052,
+ "Date": "17/05/2023",
+ "AllowSteamAchievs": 1,
+ "Workshop": "2831175574"
+}

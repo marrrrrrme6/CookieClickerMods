@@ -1,0 +1,13 @@
+{
+ "Name": "Golden Memory",
+ "ID": "GoldenMemory",
+ "Author": "SpringsTS",
+ "Description": "Saves and restores between sessions the elapsed time since the last Golden cookie.\nShould work on Reindeers too.",
+ "ModVersion": 2.2,
+ "GameVersion": 2.052,
+ "Date": "09/07/2023",
+ "Dependencies": [],
+ "Disabled": 0,
+ "AllowSteamAchievs": 1,
+ "Workshop": "2988518606"
+}
