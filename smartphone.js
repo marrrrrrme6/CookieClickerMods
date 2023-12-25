@@ -1,4 +1,4 @@
-javascript:(()=>{
+(()=>{
     (function() {
         AddEvent(document,'touchstart',e=>{
             Game.mouseX=(e.touches[0].pageX)/Game.scale;
