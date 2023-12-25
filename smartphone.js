@@ -1,5 +1,5 @@
 (()=>{
-    (function() {
+    !function() {
         AddEvent(document,'touchstart',e=>{
             Game.mouseX=(e.touches[0].pageX)/Game.scale;
             Game.mouseY=(e.touches[0].pageY-TopBarOffset)/Game.scale;
@@ -18,13 +18,14 @@
             Game.mouseDown=0;
             Game.clickFrom=0;
         });
-    })();
+    }();
     
-    (function() {
+    !function() {
         const s=(id,prop,val)=>{l(id).style[prop]=val;};
         for(let i of ['toggleUpgrades','upgrades','vaultUpgrades'])s(i,'height','auto');
-    })();
-    (function() {
+    }();
+    
+    !function() {
         const M=Game.Objects['Temple'].minigame;
         M.godSelected=-1,M.slotSelected=-1;
         const id=()=>M.gods[M.godSelected].id;
@@ -104,6 +105,6 @@
             if(M.godSelected===-1||M.slotSelected===-1)return;
             set(-1);
         });
-    })();
+    }();
     alert('完了');
 })();
