@@ -4,6 +4,6 @@
 
 function(array,i) {
     for (var i = 0; i < array.length; i++) {
-        Game.LoadMod('http://192.168.123.28:8000/' + array[i] + '/main.js')
+        Game.LoadMod('http://marrrrrrme6.github.io/CookieClickerMods/' + array[i] + '/main.js')
     };
-}(['CCSE','CookieAssistant','GoldenMemory','IdleTrading','ReloadGameButton','StockAssistant','autoSacrifice','bulkBuy50','bulkBuyX','cookie-percentage-graph','cws-betterGoldenAchievements'])
+}(['CCSE','cookie-percentage-graph','GoldenMemory','bulkBuy50','bulkBuyX','ReloadGameButton','cws-betterGoldenAchievements','CookieAssistant','StockAssistant','IdleTrading','autoSacrifice'])
