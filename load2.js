@@ -1,8 +1,8 @@
 !async function(a) {
-  for (let url of a) {
+  for (let mod of a) {
     try {
         await new Promise((resolve, reject) => {
-            Game.LoadMod('https://marrrrrrme6.github.io/CookieClickerMods/' + url + '/main.js',resolve,()=>{console.log(`Failed to load mod file:`,file);resolve();});
+            Game.LoadMod('https://marrrrrrme6.github.io/CookieClickerMods/' + mod + '/main.js',resolve,()=>{console.log(`Failed to load mod file:`,mod);resolve();});
         })
       } catch (err) {
             // エラーハンドリングをここで行うことができます
