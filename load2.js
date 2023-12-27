@@ -2,7 +2,7 @@
   for (let mod of a) {
     try {
         await new Promise((resolve, reject) => {
-            Game.LoadMod('https://marrrrrrme6.github.io/CookieClickerMods/' + mod + '/main.js',resolve,()=>{console.log(`Failed to load mod file:`,mod);resolve();});
+            Game.LoadMod('https://marrrrrrme6.github.io/CookieClickerMods/' + mod + '/main.js',resolve,()=>{console.log(`Failed to load mod file:`,mod);reject();});
         })
       } catch (err) {
             // エラーハンドリングをここで行うことができます
