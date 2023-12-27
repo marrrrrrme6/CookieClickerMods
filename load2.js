@@ -1,4 +1,4 @@
-!async (a) => {
+!async function(a) {
   for (let url of a) {
     try {
         await new Promise((resolve, reject) => {
